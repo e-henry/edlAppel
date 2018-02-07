@@ -1,0 +1,27 @@
+{
+  "name": "edlappel",
+  "version": "1.0.0",
+  "description": "Appel du groupe EDL",
+  "main": "index.js",
+  "dependencies": {
+    "remark-cli": "^5.0.0",
+    "remark-preset-lint-recommended": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "remark ."
+  },
+  "remarkConfig": {
+    "plugins": ["remark-preset-lint-recommended"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-henry/edlAppel.git"
+  },
+  "author": "Eric HENRY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-henry/edlAppel/issues"
+  },
+  "homepage": "https://github.com/e-henry/edlAppel#readme"
+}
