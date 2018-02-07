@@ -12,7 +12,9 @@
     "test": "remark ."
   },
   "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   },
   "repository": {
     "type": "git",
